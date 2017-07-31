@@ -112,7 +112,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 
 /*-- banner --*/
 .banner{
-	background: url(../images/1.jpeg) no-repeat 0px 0px;
+	background: url(../images/hoidyk.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -281,7 +281,6 @@ a.w3_agile_vimeo:hover{
 	-o-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 }
-/*-- nav-effect --*/
 .link-effect-8 a {
 	margin: 0.8em 2.5em 0;
     padding: 1em;
@@ -330,7 +329,6 @@ a.w3_agile_vimeo:hover{
   top: 0;
   background: white;
 }
-/*-- //nav-effect --*/
 .shy-menu-panel ul li.active a,.link-effect-8 a:hover{
 	color:#a4dd25;
 }
@@ -385,7 +383,6 @@ span.char3 {
     letter-spacing: 1px;
     font-size: 14px;
 }
-/*-- button-effect --*/
 .thim-click-to-bottom {
     position: absolute;
     bottom: 7%;
@@ -411,11 +408,6 @@ span.char3 {
     40%  { -webkit-transform: translateY(-20px); }
 	80% { -webkit-transform: translateY(-10px); }
 }
-/*-- //button-effect --*/
-/*-- //banner --*/
-
-/*-- bootstrap-modal-pop-up --*/
-/* modal */
 h4.modal-title {
     text-align: center;
     font-size: 30px;
@@ -490,10 +482,6 @@ b, strong {
 .about-modal.wthree {
     padding: 2em 4em;
 }
-/* //modal */
-/*-- //bootstrap-modal-pop-up --*/
-
-/*-- about --*/
 .about h3, .skills h3, .map h3 {
     font-size: 40px;
     text-align: center;
@@ -780,17 +768,6 @@ i.fa.fa-hourglass-end {
 }
 /* //education */
 
-/*-- Portfolio --*/
-
-.portfolio h3 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: #000;
-}
 
 	/*-- Tabs --*/
 
@@ -865,12 +842,6 @@ i.fa.fa-hourglass-end {
 		text-decoration: none;
 	}
 
-	.portfolio h4 {
-		margin: 30px 0;
-		font-size: 25px;
-		font-weight: 600;
-	}
-
 		/*-- Tabs-Content --*/
 
 		.content-wrap {
@@ -894,9 +865,7 @@ i.fa.fa-hourglass-end {
 			padding: 0.75em 0;
 			color: rgba(40,44,42,0.05);
 			font-weight: 900;
-			/*--w3layouts--*/
-			/*--agileits--*/
-			font-size: 4em;
+						font-size: 4em;
 			line-height: 1;
 		}
 
@@ -952,142 +921,7 @@ i.fa.fa-hourglass-end {
 
 		/*-- //Tabs-Styling --*/
 
-		/*-- Tab-Images --*/
-
-		.gallery-top {
-			padding: 0;
-		}
-
-		.gallery-grids figure {
-			position: relative;
-			float: left;
-			overflow: hidden;
-			text-align: center;
-			width: 100%;
-		}
-
-		.gallery-grids figure.effect-bubba:hover {
-			background-color: #000;
-		}
-
-		.gallery-grids figure img {
-			position: relative;
-			display: block;
-			width: 100%;
-			border: 3px solid #fff;
-		}
-
-		.gallery-bottom {
-			margin: 2.5em 0;
-		}
-
-		.gallery-grids figure figcaption {
-			padding: 2em;
-			color: #fff;
-			/*--w3layouts--*/
-			/*--agileits--*/
-			-webkit-backface-visibility: hidden;
-			-moz-backface-visibility: hidden;
-			-o-backface-visibility: hidden;
-			-ms-backface-visibility: hidden;
-			backface-visibility: hidden;
-		}
-
-		.gallery-grids figure figcaption::before, .gallery-grids figure figcaption::after {
-			pointer-events: none;
-		}
-
-		.gallery-grids figure figcaption{
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-
-		figure.effect-bubba:hover img {
-			opacity: 0.3;
-		}
-
-		figure.effect-bubba figcaption::before, figure.effect-bubba figcaption::after {
-			position: absolute;
-			top: 30px;
-			right: 30px;
-			bottom: 30px;
-			left: 30px;
-			content: '';
-			opacity: 0;
-			-webkit-transition: opacity 0.35s,-webkit-transform 0.35s;
-			-moz-transition: opacity 0.35s, -moz-transform 0.35s;
-			-o-transition: opacity 0.35s, -o-transform 0.35s;
-			-ms-transition: opacity 0.35s, -ms-transform 0.35s;
-			transition: opacity 0.35s, transform 0.35s;
-		}
-
-		figure.effect-bubba figcaption::before {
-			border-top: 1px solid #fff;
-			border-bottom: 1px solid #fff;
-			-webkit-transform: scale(0,1);
-			-moz-transform: scale(0,1); 
-			-o-transform: scale(0,1);
-			-ms-transform: scale(0,1);
-			transform: scale(0,1);
-		}
-
-		figure.effect-bubba figcaption::after {
-			border-right: 1px solid #fff;
-			border-left: 1px solid #fff;
-			-webkit-transform: scale(1,0);
-			-moz-transform: scale(1,0);
-			-o-transform: scale(1,0);
-			-ms-transform: scale(1,0);
-			transform: scale(1,0);
-		}
-
-		figure.effect-bubba h4 {
-			padding-top: 11%;
-			-webkit-transition: transform 0.35s;
-			-moz-transition: transform 0.35s;
-			-o-transition: -o-transform 0.35s;
-			-ms-transition: -ms-transform 0.35s;
-			transition: transform 0.35s;
-			/*--w3layouts--*/
-			/*--agileits--*/
-			-webkit-transform: translate3d(0,-20px,0);
-			-moz-transform: translate3d(0,-20px,0);
-			-o-transform: translate3d(0,-20px,0);
-			-ms-transform: translate3d(0,-20px,0);
-			transform: translate3d(0,-20px,0);
-			opacity:0;
-		}
-
-		.gallery-top figure.effect-bubba h4{
-			padding-top: 16%;
-		}
-
-		figure.effect-bubba:hover figcaption::before, figure.effect-bubba:hover figcaption::after {
-			opacity: 1;
-			-webkit-transform: scale(1);
-			-moz-transform: scale(1);
-			-o-transform: scale(1);
-			-ms-transform: scale(1);
-			transform: scale(1);
-		}
-
-		figure.effect-bubba:hover h4 {
-			opacity: 1;
-			-webkit-transform: translate3d(0,0,0);
-			-moz-transform: translate3d(0,0,0);
-			-o-transform: translate3d(0,0,0);
-			-ms-transform: translate3d(0,0,0);
-			transform: translate3d(0,0,0);
-		}
-		/*-- //Tab-Images --*/
-
-	/*-- //Tabs --*/
-
-/*-- //Portfolio --*/
-
+	
 /* contact */
 .agileits_agile_about_mail_left input[type="email"], .agileits_agile_about_mail_left input[type="text"]:nth-child(1) {
     margin-bottom: 1em;
@@ -1737,7 +1571,7 @@ iframe {
 		margin: 7em 0 4em;
 	}
 	.banner {
-		background: url(../images/hoidyk1.jpg) no-repeat -182px 0px;
+		background: url(../images/hoidyk.jpg) no-repeat -182px 0px;
 		background-size: cover;
 	}
 }
