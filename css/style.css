@@ -36,7 +36,6 @@ img {
     width: 100%;
 }
 
-/*-- header --*/
 h1 a.navbar-brand {
     font-size: 35px;
     color: #fff !important;
@@ -125,9 +124,6 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 .navbar-nav > li > a {
     padding: 10px;
 }
-
-/*-- //header --*/
-/*-- banner --*/
 .banner {
     background: url(../images/hoidyk.jpg) no-repeat 0px 0px;
     background-size: cover;
@@ -274,8 +270,6 @@ a.w3_agile_vimeo:hover {
     display: block;
     width: 95%;
 }
-
-/*** Hamburger ***/
 .shy-menu-hamburger {
     position: relative;
     display: block;
@@ -625,7 +619,6 @@ b, strong {
     width: 25%;
 }
 
-/*-- hover-effect --*/
 .boxw3-agile {
     overflow: hidden;
     position: relative;
@@ -644,7 +637,6 @@ b, strong {
     transition: .5s all;
 }
 
-/* agile-caption Common Style */
 .boxw3-agile .agile-caption {
     position: absolute;
     color: #fff;
@@ -662,7 +654,6 @@ b, strong {
     text-align: center;
 }
 
-/** agile-caption 6: Scale **/
 .boxw3-agile .agile-caption h3,.boxw3-agile .agile-caption p {
     position: relative;
     left: -380px;
@@ -702,15 +693,12 @@ b, strong {
     -ms-transition-delay: 500ms;
     transition-delay: 500ms;
 }
-
-/** Fade agile-caption :hover Behaviour **/
 .boxw3-agile:hover .agile-caption {
     opacity: 1;
     background-color: rgba(0,0,0,0.5);
     left: 0;
 }
 
-/** Scale agile-caption :hover Behaviour **/
 .boxw3-agile:hover img {
     -moz-transform: scale(1.5);
     -o-transform: scale(1.5);
@@ -783,7 +771,6 @@ b, strong {
     background: #ff4f81;
 }
 
-/*-- Progress-Bar --*/
 #about-us .lead {
     font-size: 16px;
     margin-bottom: 5px;
@@ -836,9 +823,6 @@ b, strong {
     -ms-border-radius: 7px;
 }
 
-/*-- //Progress-Bar --*/
-/* //Skills */
-/* education */
 .education-agile-w3l-year {
     width: 30%;
     float: left;
@@ -897,8 +881,6 @@ i.fa.fa-hourglass-end {
     text-align: center;
 }
 
-/* //education */
-/*-- Tabs --*/
 .tabs {
     position: relative;
     overflow: hidden;
@@ -920,8 +902,6 @@ i.fa.fa-hourglass-end {
     margin: 0 auto;
     padding: 0;
     max-width: 800px;
-    /*--w3layouts--*/
-    /*--agileits--*/
     list-style: none;
     -ms-box-orient: horizontal;
     -ms-box-pack: center;
@@ -970,7 +950,6 @@ i.fa.fa-hourglass-end {
     text-decoration: none;
 }
 
-/*-- Tabs-Content --*/
 .content-wrap {
     position: relative;
 }
@@ -995,9 +974,6 @@ i.fa.fa-hourglass-end {
     font-size: 4em;
     line-height: 1;
 }
-
-/*-- //Tabs-Content --*/
-/*-- Fallback --*/
 .no-js .content-wrap section {
     display: block;
     padding-bottom: 2em;
@@ -1013,8 +989,6 @@ i.fa.fa-hourglass-end {
     display: inline-block;
 }
 
-/*-- //Fallback --*/
-/*-- Tabs-Styling --*/
 .tabs-style-bar nav ul {
     border: 4px solid transparent;
 }
@@ -1032,8 +1006,6 @@ i.fa.fa-hourglass-end {
 
 .tabs-style-bar nav ul li a span {
     letter-spacing: 1px;
-    /*--w3layouts--*/
-    /*--agileits--*/
     font-size: 15px;
 }
 
@@ -1042,8 +1014,6 @@ i.fa.fa-hourglass-end {
     color: #fff;
 }
 
-/*-- //Tabs-Styling --*/
-/* contact */
 .agileits_agile_about_mail_left input[type="email"], .agileits_agile_about_mail_left input[type="text"]:nth-child(1) {
     margin-bottom: 1em;
 }
@@ -1200,9 +1170,6 @@ iframe {
     height: 350px;
     border: none;
 }
-
-/* //iframe */
-/* copyright */
 .copyright-agile {
     background: #272727;
     padding: 1em 0;
@@ -1236,8 +1203,6 @@ iframe {
     color: #fff;
 }
 
-/* //copyright */
-/*-- to-top --*/
 #toTop {
     display: none;
     text-decoration: none;
@@ -1264,8 +1229,6 @@ iframe {
     filter: alpha(opacity=0);
 }
 
-/*-- //to-top --*/
-/* Responsive design */
 @media screen and (max-width: 1920px) {
     .education-agile-w3l-year {
         padding: 3.75em 2em;
