@@ -3,7 +3,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     background: #ffffff;
     max-width: 1500px;
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 p,ul li,ol li {
@@ -47,8 +47,9 @@ h1 a.navbar-brand {
 }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    margin-left: 0px;    
-	
+    margin-left: 0px;
+    min-width: 400px;
+	max-width: 1400px;
 }
 
 nav.navbar.navbar-default.navbar-fixed-top {
@@ -58,8 +59,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
     padding: .6em 14em;
     -webkit-transition: .5s all;
     -moz-transition: .5s all;
-    transition: .5s all;    
-}
+    }
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;
@@ -135,8 +135,6 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     -ms-background-size: cover;
     min-height: 770px;
     position: relative;
-    max-width: 1500px;
-    margin: 0 auto;
 }
 
 .agileinfo-dot {
@@ -491,7 +489,6 @@ span.char3 {
         -webkit-transform: translateY(-10px);
     }
 }
-
 h4.modal-title {
     text-align: center;
     font-size: 30px;
@@ -1809,7 +1806,7 @@ iframe {
     }
 
     .banner {
-        background: url(../images/hoidyk.jpg) no-repeat -182px 0px;
+        background: url(../images/tetiana_bukovel.jpg) no-repeat -182px 0px;
         background-size: cover;
     }
 }
